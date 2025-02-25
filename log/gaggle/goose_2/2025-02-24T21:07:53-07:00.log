@@ -1,0 +1,4 @@
+I, [2025-02-24T21:07:53.778665 #70915]  INFO -- : Spawned PID: 71028
+I, [2025-02-24T21:07:54.095089 #70915]  INFO -- : Output: [2mstarting session |[0m [2mprovider:[0m [36m[2mopenrouter[0m [2mmodel:[0m [36m[2mgoogle/gemini-2.0-flash-001[0m
+E, [2025-02-24T21:07:54.095221 #70915] ERROR -- : Unexpected error: NameError - uninitialized constant Gaggle::Session::Strings
+I, [2025-02-24T21:07:54.095341 #70915]  INFO -- : Session thread exiting, PID: 71028
