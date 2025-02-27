@@ -10,13 +10,8 @@ default: &default
   timeout: 5000
 
 development:
-  primary:
-    <<: *default
-    database: db/development.sqlite3
-  gaggle:
-    <<: *default
-    database: storage/gaggle.sqlite3
-    migrations_paths: <%= Gaggle::Engine.root.join("db/gaggle_migrate") %>
+  <<: *default
+  database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

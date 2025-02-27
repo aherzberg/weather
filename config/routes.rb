@@ -10,6 +10,4 @@ Rails.application.routes.draw do
   get 'weather', to: 'weather#index'
   get 'weather/index', to: 'weather#index'
   root 'weather#index'
-
-  mount Gaggle::Engine => "/gaggle"
 end

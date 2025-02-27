@@ -60,7 +60,6 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  gem 'gaggle', git: 'https://github.com/Tonksthebear/gaggle'
 end
 
 group :test do
